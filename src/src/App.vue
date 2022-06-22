@@ -1,0 +1,60 @@
+<template>
+  <div id="app">
+
+<boot-camp-register></boot-camp-register>
+   
+
+  
+  </div>
+</template>
+
+<script>
+
+import bootCampRegister  from './components/bootCampRegister.vue'
+export default{
+
+
+
+  name : 'app',
+
+
+
+  components :{
+
+
+    bootCampRegister
+  }
+}
+
+
+</script>
+
+<style scoped>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+nav {
+  padding: 30px;
+}
+
+nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+nav a.router-link-exact-active {
+  color: #42b983;
+}
+
+
+#login{
+position: absolute;
+left:58%;
+
+}
+</style>
